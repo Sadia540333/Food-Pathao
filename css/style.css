@@ -106,6 +106,7 @@ header .banner-part form .resturent-name input{
 	margin-right: 15px;
 	border: none;
 	position: relative;
+	outline: none;
 
 }
 header .banner-part form .resturent-name i{
@@ -119,14 +120,15 @@ header .banner-part form .location input{
 	padding: 13px 10px;
 	border: none;
 	position: relative;
-	text-align: right;
+	outline: none;
 }
 header .banner-part form .location i{
 	position: absolute;
 	margin-top: 13px;
 	right: 50%;
 	color: red;
-	margin-right: -40px;	
+	margin-right: -400px;
+	padding-left: 10px;	
 }
 header .banner-part form .search-bar a{
 	width: 100px;
@@ -266,9 +268,6 @@ header .header-bottom-img img{
 		padding-left: 10px;
 		color: #959595;
 		padding: 5px;
-	}
-	#Popular-Food .food .food-menu .bottom-part .icon a{
-		
 	}
 	#Popular-Food .food .food-menu:hover .food_prize{
 		background: #d50c0d;
@@ -574,6 +573,7 @@ footer .main .inner-part form input{
 	border: none;
 	border-radius: 5px;
 	margin-left: 120px;
+	outline: none;
 }
 footer .main .inner-part .food-deaitls .item .icon{
 	margin-right: 20px;
